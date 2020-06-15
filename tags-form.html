@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
     <title>Reto-2</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/reto.css">
   </head>
   <body>
     <header>
@@ -15,7 +15,7 @@
           <li>
             <a href="./index.html">Index</a>
             <a href="./tags-form.html">Reto 2</a>
-            <a href="">Reto 3</a>
+            <a href="./form.html">Reto 3</a>
             <a href="">Reto 4</a>
           </li>
         </ul>
@@ -30,15 +30,15 @@
                 <input minlength="3" type="text" placeholder="Your Lastname" pattern="[A-Za-z]+" required>
                 <input minlength="10" type="text" placeholder="Your Email" required>
                 <br>
-                <label>Age Range</label>
-                <input type='checkbox' tabindex='20' name='edad' value='18-25' > 18-25
-                <input type='checkbox' tabindex='21' name='edad' value='25-35' > 25-35
-                <input type='checkbox' tabindex='22' name='edad' value='35-103' > 35-103
+                <label for="age-bx">Age Range</label>
+                <input type='checkbox' tabindex='20' name='edad' id="age-bx" value='18-25' > 18-25
+                <input type='checkbox' tabindex='21' name='edad' id="age-bx" value='25-35' > 25-35
+                <input type='checkbox' tabindex='22' name='edad' id="age-bx" value='35-103' > 35-103
                 <br>
                 <label for="sex">Sexo</label>
-                <label><input type="radio" name="sex" checked> F</label>
-                <label><input type="radio" name="sex"> M</label>
-                <label><input type="radio" name="sex"> Don't Specify</label>
+                <label><input type="radio" name="sex" id="sex" checked> F</label>
+                <label><input type="radio" name="sex"id="sex"> M</label>
+                <label><input type="radio" name="sex" id="sex"> Don't Specify</label>
             </fieldset>
             <br>
             <fieldset>

@@ -3,11 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/reto.css">
 </head>
 <body>
-    <form action="">
-        <input minlength="3" type="text" placeholder="Name" required>
-    </form>
+    <header>
+        <nav>
+          <h1>Reto 2</h1>
+          <ul>
+            <li>
+              <a href="./index.html">Index</a>
+              <a href="./tags-form.html">Reto 2</a>
+              <a href="./form.html">Reto 3</a>
+              <a href="">Reto 4</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="form-wrap">
+            <form>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="us-name" id="name" placeholder="Tu nombre" required pattern="[A-Za-z]+">
+                    <br>
+                    <label for="lastname">Apellido</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Tu apellido" required pattern="[A-Za-z]+">
+                    <br>
+                    <label for="age">Edad</label>
+                    <input type="number" name="age" id="age" placeholder="Tu edad" required min="18" required max="80">
+                    <br>
+                    <label for="sex">Sexo:</label>
+                    <label><input type="radio" name="sex" id="sex" checked> F</label>
+                    <label><input type="radio" name="sex" id="sex"> M</label>
+                    <label><input type="radio" name="sex" id="sex"> Don't Specify</label>
+                    <br><br>
+                    <input type="text" name="ID" placeholder="DNI" required pattern="\d{8}">
+                    <input type="email" name="email" placeholder="Correo" required>
+                    <br><br>
+                    <button>Enviar</button>
+                </fieldset>
+              </form>
+        
+    </div>
+    </main>
 </body>
 </html>
