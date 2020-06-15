@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+    <title>Reto-2</title>
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Reto 2</h1>
+        <ul>
+          <li>
+            <a href="./index.html">Index</a>
+            <a href="./tags-form.html">Reto 2</a>
+            <a href="">Reto 3</a>
+            <a href="">Reto 4</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="form-wrap">
+        <form action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <input minlength="3" type="text" placeholder="Your Name" pattern="[A-Za-z]+" required>
+                <input minlength="3" type="text" placeholder="Your Lastname" pattern="[A-Za-z]+" required>
+                <input minlength="10" type="text" placeholder="Your Email" required>
+                <br>
+                <label>Age Range</label>
+                <input type='checkbox' tabindex='20' name='edad' value='18-25' > 18-25
+                <input type='checkbox' tabindex='21' name='edad' value='25-35' > 25-35
+                <input type='checkbox' tabindex='22' name='edad' value='35-103' > 35-103
+                <br>
+                <label for="sex">Sexo</label>
+                <label><input type="radio" name="sex" checked> F</label>
+                <label><input type="radio" name="sex"> M</label>
+                <label><input type="radio" name="sex"> Don't Specify</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Other Information</legend>
+                <label>Favorite Sport</label>
+                <select name="select" id="sport">
+                    <option value="value1" selected>Select a Sport</option> 
+                    <option value="value2">Swimming</option>
+                    <option value="value3">Football</option>
+                    <option value="value4">Zorbing</option>
+                    <option value="value5">Extreme Ironing</option>
+                    <option value="value6">Wife Carrying</option>
+                    <option value="value7">Bog Snorkelling</option>
+                  </select>
+                  <br>
+                <label>If you were a fruit, which fruit would you be?</label>
+                <select name="" id="fruit">
+                    <option value="value1" selected>Select a Fruit</option>
+                    <option value="value2">Durian</option>
+                    <option value="value3">Cherimoya</option>
+                    <option value="value4">Feijoa</option>
+                    <option value="value5">Passion Fruit</option>
+                    <option value="value6">Mangosteen</option>
+                </select>
+                <br>
+                <label for="">Favorite Place</label>
+                <select>
+                    <option value="value1">Narnia</option>
+                    <option value="value2">Kilimanjaro</option>
+                    <option value="value3">Mordor</option>
+                    <option value="value4">Liliput</option>
+                    <option value="value5">The Emerald City</option>
+                    <option value="value6">Asgard</option>
+                </select>
+                <br>
+                <label for="">Write a Small Essay: Is cereal soup? Why?</label>
+                <br>
+                <textarea name="essay" id=""></textarea>
+                </fieldset>
+                <div class="lg-buttons">
+                <button type="submit">Enviar</button>
+                <button type="reset">Reset</button>
+                </div>
+        </form>
+    </div>
+    </main>
+  </body>
+</html>

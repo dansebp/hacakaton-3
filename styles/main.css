@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.form-wrap{
+    max-width: 600px;
+    margin: 0 auto;
+}
+fieldset{
+    padding: 25px
+}
+legend {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+input {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+button {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: white;
+}
+button:hover{
+    background-color: midnightblue;
+}
+textarea{
+    width: 100%;
+    min-height: 100px;
+}
+.lg-buttons{
+margin: 20px auto;
+}
