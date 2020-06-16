@@ -23,9 +23,37 @@ section {
     margin: 0;
 }
 .wrapper {
-    max-width: 80%;
+    width: 80%;
+    max-width: 1240px;
     margin: 0 auto;
 }
+
+/*---NAV---*/
+ nav {
+    height: 70px;
+    font-size: 0.8em;
+    color: #fff;
+    background-color: rgb(167, 208, 255);
+    padding: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+ }
+
+ nav a {
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(81, 35, 248);
+    width: 120px;
+    height: 35px;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    border-radius: 8px;
+ }
+
 
 /*---BANNER----*/
 
@@ -57,17 +85,20 @@ section {
 
 /*---ABOUT---*/
 
-#about{
+.about{
     box-sizing: border-box;
     padding: 5%;
-    background-color: #7299FE;
-    color: #fff;
+    background-color: rgb(51, 102, 233);
+    color: rgb(68, 229, 250);
 }
-#about p{
+.about p{
     font-size: 16px;
     line-height: 1.5em;
+    color: #fff;
 }
-#about button {
+.about button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     margin: 20px 0;
     color: #fff;
     background-color: #D16FFF;
@@ -77,3 +108,154 @@ section {
     border-radius: 8px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+/*---SKILLS---*/
+
+.skills {
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: rgb(181, 102, 255);
+    color: rgb(253, 178, 16);
+}
+.skills h3{
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #fff;
+}
+.skill-wrap {
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+.sw-left {
+    float: left;
+    width: 48%;
+}
+.sw-right {
+    float: right;
+    width: 48%;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.skill-box{
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.skill-bar{
+    height: 20px;
+    width: 45%;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+
+/*---PORTAFOLIO---*/
+
+.portfolio{
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: rgb(252, 231, 113);
+    color: rgb(74, 120, 248);
+}
+.pt-items{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.pt-items figure {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 25%;
+    float: left;
+}
+.pt-items figure img {
+    max-height: 100px;
+    padding: 0 10px;
+}
+
+/*---CLIENTES---*/
+
+.clients{
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: rgb(65, 74, 124);
+    color: rgb(74, 248, 167);
+}
+.cl-items{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.cl-items figure {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 25%;
+    float: left;
+}
+.clients figure img {
+    max-height: 80px;
+    padding: 0 10px;
+}
+
+/*---CONTACTO---*/
+
+.contact {
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: rgb(71, 212, 212);
+    color: rgb(235, 37, 70);
+}
+fieldset {
+    width: 60%;
+    margin: 0 auto;
+}
+ input {
+    font-family: 'Poppins', sans-serif;
+    height: 45px;
+    margin: 10px 0;
+    padding: initial;
+    border: none;
+ }
+ .input-txt {
+    box-sizing: border-box;
+    padding-left: 10px;
+ }
+ .msg-txt{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    min-height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    
+ }
+ .btn-wrap {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .btn-wrap button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(19, 36, 83);
+    border: none;
+    border-radius: 8px;
+ }
+ 
+ /*---FOOTER---*/
+
+ footer {
+     height: 40px;
+     font-size: 0.8em;
+     color: #fff;
+     background-color: lightcoral;
+     padding: 15px;
+     margin: 0 auto;
+     box-sizing: border-box;
+     text-align: center;
+ }

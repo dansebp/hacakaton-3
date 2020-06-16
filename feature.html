@@ -33,42 +33,42 @@
             </div>
             </div>
         </section>
-        <section id="about">
+        <section class="about" id="about">
             <h2>Sobre mi</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis diam commodo, arcu gravida erat quam donec convallis. Gravida arcu, suspendisse semper mauris tristique tortor. Eu, malesuada elit feugiat laoreet malesuada vitae. zz enim habitasse malesuada lacus, euismod pharetra habitasse.</p>
             <button><a href="#"></a>Ver CV</button>
         </section>
-        <section>
+        <section class="skills" id="skills">
             <h2>Mis Skills</h2>
-            <div>
+            <div class="skill-wrap sw-left">
                 <h3>HTML</h3>
                 <div class="skill-box"><div class="skill-bar"></div></div>
             </div>
-            <div>
+            <div class="skill-wrap sw-right">
                 <h3>CSS</h3>
                 <div class="skill-box"><div class="skill-bar"></div></div>
             </div>
-            <div>
+            <div class="skill-wrap sw-left">
                 <h3>JavaScript</h3>
                 <div class="skill-box"><div class="skill-bar"></div></div>
             </div>
-            <div>
+            <div class="skill-wrap sw-right">
                 <h3>VUE</h3>
                 <div class="skill-box"><div class="skill-bar"></div></div>
             </div>
-            <div>
+            <div class="skill-wrap sw-left">
                 <h3>Flexbox</h3>
                 <div class="skill-box"><div class="skill-bar"></div></div>
             </div>
-            <div>
+            <div class="skill-wrap sw-right">
                 <h3>CSS Gird</h3>
                 <div class="skill-box"><div class="skill-bar"></div></div>
             </div>
+            <div class="clear"></div>
         </section>
-        <hr>
-        <section>
+        <section class="portfolio" id="portfolio">
             <h2>Portafolio</h2>
-            <div>
+            <div class="pt-items">
                 <figure>
                     <img src="./images/image-1.png" alt="image">
                 </figure>
@@ -94,31 +94,46 @@
                     <img src="./images/image-8.png" alt="image">
                 </figure>
             </div>
+            <div class="clear"></div>
         </section>
-        <hr>
-        <section>
+        <section class="clients" id="clients">
             <h2>Clientes</h2>
+            <div class="cl-items">
+                <figure>
+                    <img src="./images/1.jpg" alt="image">
+                </figure>
+                <figure>
+                    <img src="./images/2.jpg" alt="image">
+                </figure>
+                <figure>
+                    <img src="./images/3.jpg" alt="image">
+                </figure>
+                <figure>
+                    <img src="./images/4.jpg" alt="image">
+                </figure>
+            </div>
+            <div class="clear"></div>
         </section>
-        <hr>
-        <section>
+        <section class="contact" id="contact">
             <h2>Contacto</h2>
             <form>
                 <fieldset>
-                    <input class="input-txt" type="text" name="name" id="name" placeholder="Nombre" required pattern="[A-Za-z]+">
-                    <input class="input-txt" type="text" name="lastname" id="lastname" placeholder="Apellido" required pattern="[A-Za-z]+">
-                    <input minlength="10" type="text" placeholder="Email" required>
-                    <input minlength="7" type="text" placeholder="Telefono" required>
+                    <input class="input-txt sw-left" type="text" name="name" id="name" placeholder="Nombre" required pattern="[A-Za-z]+">
+                    <input class="input-txt sw-right" type="text" name="lastname" id="lastname" placeholder="Apellido" required pattern="[A-Za-z]+">
+                    <input class="input-txt sw-left" minlength="10" type="text" placeholder="Email" required>
+                    <input class="input-txt sw-right" minlength="7" type="text" placeholder="Telefono" required>
                     <br>
-                    <textarea name="message" id="message-txt" placeholder="Mensaje"></textarea>
-                    <button>Enviar</button>
+                    <textarea class="msg-txt" name="message" id="message-txt" placeholder="Mensaje"></textarea>
+                    <div class="btn-wrap">
+                        <button>Enviar</button>
+                    </div>
                 </fieldset>
               </form>
         </section>
+        <footer>
+            <p>All rights reserved 2020 ® </p>
+        </footer>
         </div>
     </main>
-    <footer>
-        <p>All rights reserved 2020 ® </p>
-    </footer>
-
 </body>
 </html>
